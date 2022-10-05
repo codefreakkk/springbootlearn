@@ -11,11 +11,6 @@ import com.api.book.entities.Book;
 public class BookServices {
 	private static List<Book> books = new ArrayList<>();
 	
-	static {
-		books.add(new Book(1, "sdfs", "sdfsdfa"));
-		books.add(new Book(2, "sdfs", "sdfsdfa"));
-		books.add(new Book(3, "sdfs", "sdfsdfa"));
-	}
 	
 	public List<Book> getAllBooks() {
 		return books;
